@@ -6,26 +6,26 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Dharitri",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Dixit",
+  message: " Taking it one day at a time. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/dhari001",
     },
     {
       image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://www.facebook.com/dharitri.dixit/",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/dharidixit/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/dharitri-dixit/",
     },
     {
       image: "fa-twitter",
@@ -51,11 +51,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/dhari1.jpg"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: require("../editable-stuff/resume.pdf"),
+    "My name is Dharitri Dixit. I’m a third year student from University of Ottawa currently pursuing a degree in Software Engineering. I enjoy thinking outside the box to find unique solutions to problems and implementing these solutions through technology. In my free time I like solving logic puzzles, reading and watching netflix.",
+  resume: require("../editable-stuff/dhariResume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -66,7 +66,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "dhari001", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
@@ -101,23 +101,23 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
+    { name: "Java", value: 95 },
+    { name: "Data Structures", value: 90 },
+    { name: "C/C++", value: 60 },
     { name: "JavaScript", value: 90 },
     { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "HTML/CSS", value: 90 },
+    { name: "C#", value: 90 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Goal-Oriented", value: 87 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
+    { name: "Positivity", value: 95},
+    { name: "Adaptability", value: 90 },
     { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Ambitious", value: 90 },
+    { name: "Organization", value: 90 },
+    { name: "Creativity", value: 85 },
   ],
 };
 
@@ -126,8 +126,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time Software Engineering internships! If you know of any positions available, if you have any questions, or if you just want to chat, please feel free to email me at",
+  email: "dharidix@icloud.com",
 };
 
 // Blog SECTION
